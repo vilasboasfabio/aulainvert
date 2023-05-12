@@ -20,15 +20,9 @@ while (i < diasSemana.length) {
   i++;
 }
 }
-temperaturas.sort(function (a, b) {
-  return a.temperatura - b.temperatura;
-});
-
-console.log("Temperaturas da semana (em ordem crescente):");
+console.log("Temperaturas da semana");
 for (var x = 0; x < temperaturas.length; x++) {
   console.log(temperaturas[x].dia + ": " + temperaturas[x].temperatura);
 }
-
 var mediaSemana = somaTemperaturas / temperaturas.length;
-
 console.log("Média da semana: " + mediaSemana.toFixed(2));

@@ -63,7 +63,7 @@ console.log("O menor é: " + menor);*/
 let result = factorial(-6);
 console.log("O valor é: "  + result);*/
 
-var list =[];
+/*var list =[];
 
 
 function adicionarEntrada(){
@@ -83,6 +83,6 @@ function adicionarEntrada(){
      
      document.getElementById("result").innerHTML = conteudoArr;
 
-}
+}*/
 
 
